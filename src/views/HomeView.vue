@@ -1,12 +1,14 @@
 <script setup>
 import LandingPage from '@/components/LandingPage.vue';
-// import MyMessage from '@/components/MyMessage.vue';
+import MyMessage from '@/components/MyMessage.vue';
+import ProductList from '@/components/ProductList.vue';
 </script>
 
 <template>
     <main>
         <LandingPage />
-        <!-- <MyMessage /> -->
+        <MyMessage />
+        <ProductList />
     </main>
 </template>
 
