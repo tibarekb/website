@@ -4,7 +4,7 @@ import building from '@/assets/img/mohan.jpg'
 
 <template>
   
-  <div class="grid gap-16 grid-cols-2 mt-12">
+  <div class="lg:grid gap-16 grid-cols-2 mt-12 items-center">
     <div class="">
       <h1 class="pl-2 m-10 text-4xl font-bold">ABOUT US </h1>
       <p class="pl-12 text-lg">
@@ -22,8 +22,8 @@ import building from '@/assets/img/mohan.jpg'
       </p>
       </div>
     
-    <div class="md:w-[40rem] mt-24 md:mt-0 w-72 h-96 rounded-bl-[15rem] ">
-      <img :src="building" alt="Image" class="w-full h-full object-cover">
+    <div class="md:w-[40rem] mt-24 md:mt-0 w-96 h-96 rounded-bl-[15rem] ">
+      <img :src="building" alt="Image" class="w-full h-full object-contain">
     </div>
     
   </div>

@@ -2,7 +2,7 @@
 defineOptions({
   name: 'LandingPage',
 })
-
+import NavBar from './NavBar.vue';
 </script>
 
 <template>
@@ -14,21 +14,7 @@ defineOptions({
 </div>
 </div> -->
 
-<nav class="navbar fixed top-0 w-full z-0 text-white">
-  <div class="container mx-auto flex justify-between items-center p-4">
-    <div class="logo text-xl font-bold">
-      <a href="#" class="text-white">Mohan PLC</a>
-    </div> 
-
-    <!-- Navigation Links --> 
-      <ul class="flex space-x-6 p-4 text-lg">
-      <li><a href="#home" class="hover:text-blue-100 text-white">Corporate</a></li>
-      <li><a href="#about" class="hover:text-blue-100 text-white">Digital Corner</a></li>
-      <li><a href="#services" class="hover:text-blue-100 text-white">About Us</a></li>
-      <li><a href="#contact" class="hover:text-blue-100 text-white">Contact Us </a></li>
-    </ul>
-  </div>
-</nav> 
+<NavBar />
 
 <div class="">
   <video class="" autoplay muted loop playsinline>
