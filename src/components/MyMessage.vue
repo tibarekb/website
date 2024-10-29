@@ -1,5 +1,5 @@
 <script setup>
-import building from '@/assets/img/mohan.jpg'
+// import building from '@/assets/img/mohan.jpg'
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import building from '@/assets/img/mohan.jpg'
       </div>
     
     <div class="md:w-[40rem] mt-24 md:mt-0 w-96 h-96 rounded-bl-[15rem] ">
-      <img :src="building" alt="Image" class="w-full h-full object-contain">
+      <img src="../assets/img/mrraju.jpg" alt="Image" class="w-full h-full object-contain">
     </div>
     
   </div>

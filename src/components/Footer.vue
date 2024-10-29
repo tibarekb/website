@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-    <div class="container bg-blue-500 pl-8 pb-24">
+    <div class="container bg-orange-400 pl-8 pb-24">
         <div class="mx-48 pt-8 items-center">
 
         
@@ -25,7 +25,7 @@
              
             <div>
                 <h1 class="font-bold pb-4 text-xl">DIGITAL CORNER</h1>
-                <h2>Events & Exhibitions</h2>
+                <h2><a href="/event-exhibition">Events & Exhibitions</a></h2>
                 <h2>Gallery</h2>
                 <h2>Brochure</h2>
                 <h2>Awards & Recognition</h2>

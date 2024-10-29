@@ -6,19 +6,19 @@ import NavBar from './NavBar.vue';
 </script>
 
 <template>
-<!-- <div class=" container w-screen h-96">
-<div class="h-">
-  <video class="" autoplay muted loop playsinline>
-    <source src="../assets/masterbatch.mp4" type="video/mp4" />
-  </video>
-</div>
-</div> -->
 
 <NavBar />
 
-<div class="">
-  <video class="" autoplay muted loop playsinline>
-    <source src="../assets/masterbatch.mp4" type="video/mp4" />
+<!-- <div class="">
+  <video class="w-screen max-h-xs" autoplay muted loop playsinline>
+    <source src="../assets/video/masterbatch2.mp4" class="object-contain" type="video/mp4" />
+  </video>
+</div> -->
+
+<div class="container bg-orange-400 w-screen h-[38rem] mt-20">
+    <!-- <img src="../assets/img/Exhibition.jpg" class="w-full h-full object-cover" alt="Container Image"> -->
+    <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+    <source src="../assets/video/masterbatch2.mp4" class="object-contain" type="video/mp4" />
   </video>
 </div>
 
