@@ -3,7 +3,9 @@ import NavBar from './NavBar.vue';
 </script>
 <template>
     <NavBar />
-   
+    <div class="container w-screen h-96">
+    <img src="../assets/img/rubber compound.png" class="w-full h-full object-cover" alt="Container Image">
+    </div>
     <div class="pl-10 m-8 mx-48 mt-36">
         <h1 class="text-3xl font-bold">About Us</h1>
         <p class="pt-8 text-lg">The Mohan Group has engaged in diverse business activities, 

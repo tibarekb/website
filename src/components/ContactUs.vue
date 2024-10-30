@@ -4,6 +4,9 @@ import Footer from './Footer.vue';
 </script>
 <template>
     
+    <div class="container w-screen h-96">
+    <img src="../assets/img/Exhibition.png" class="w-full h-full object-cover" alt="Container Image">
+    </div>
 
     <div class="py-24">
         <h1 class="text-center text-4xl font-semibold text-orange-400">Contact Us</h1>

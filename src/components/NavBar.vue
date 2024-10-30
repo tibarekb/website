@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar fixed top-0 w-full z-0 text-white bg-orange-400">
+    <nav :class="['navbar fixed top-0 w-full z-0 text-white' ,navbarClass]">
   <div class="container mx-auto flex justify-between items-center p-2">
     <div class="logo flex items-center space-x-2 text-xl font-bold">
   <!-- <img src="../assets/img/mohanlogo.png" class="w-10 h-10"> -->
@@ -8,17 +8,17 @@
  
 
     <!-- Navigation Links --> 
-      <ul class="flex space-x-6 p-4 text-sm font-bold">
+      <ul :class="['flex space-x-6 p-4 text-sm font-bold']">
       <li><a href="#home" class="hover:text-blue-100 text-white">Corporate</a></li>
       <li><a href="#home" class="hover:text-blue-100 text-white">Product Portfolio</a></li>
       <!-- <li><a href="#" class="hover:text-blue-100 text-white">Digital Corner</a></li> -->
       <li class="group relative">
       <a href="#" class="hover:text-blue-100 text-white">Digital Corner</a>
-      <ul class="absolute left-0 hidden group-hover:flex flex-col bg-white text-black mt-6 shadow-lg text-xs">
-        <li><a href="/event-exhibition" class="block px-4 py-2 hover:bg-blue-100">Events & Exhibitions</a></li>
-        <li><a href="#" class="block px-4 py-2 hover:bg-blue-100">Gallery</a></li>
-        <li><a href="#" class="block px-4 py-2 hover:bg-blue-100">Brochure</a></li>
-        <li><a href="#" class="block px-4 py-2 hover:bg-blue-100">Awards & Recognition</a></li>
+      <ul class="absolute left-0 hidden group-hover:flex flex-col bg-white text-black shadow-lg text-xs">
+        <li><a href="/event-exhibition" class="block px-4 py-2 hover:bg-orange-100">Events & Exhibitions</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-orange-100">Gallery</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-orange-100">Brochure</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-orange-100">Awards & Recognition</a></li>
       </ul>
       </li>
       <li><a href="about-us" class="hover:text-blue-100 text-white">About Us</a></li>
@@ -29,8 +29,35 @@
 </nav> 
 </template>
 
-<script setup>
-    defineOptions({
-  name: 'NavBar',
-})
+<script>
+//     defineOptions({
+//   name: 'NavBar',
+// });
+import { ref, onMounted, onUnmounted, computed } from 'vue';
+
+export default {
+    setup() {
+        const isScrolled = ref(false);
+
+        const handleScroll = () => {
+            isScrolled.value = window.scrollY > 50; // Adjust this value as needed
+        };
+
+        const navbarClass = computed(() => {
+            return isScrolled.value ? 'bg-orange-400' : 'bg-transparent';
+        });
+
+        onMounted(() => {
+            window.addEventListener('scroll', handleScroll);
+        });
+
+        onUnmounted(() => {
+            window.removeEventListener('scroll', handleScroll);
+        });
+
+        return {
+            navbarClass
+        };
+    }
+};
 </script>

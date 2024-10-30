@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-    <div class="container bg-orange-400 pl-8 pb-24">
+    <div class="container bg-orange-400 pl-8 pb-10">
         <div class="mx-48 pt-8 items-center">
 
         
@@ -31,7 +31,7 @@
                 <h2>Awards & Recognition</h2>
             </div>
         </div>
-        <div class="text-white text-center mt-24 ">
+        <div class="text-white text-center mt-16 ">
             <hr>
             <h1 class="pt-4">© 2024 MOHANPLC. All Rights Reserved</h1>
         </div>
