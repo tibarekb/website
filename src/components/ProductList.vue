@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <div class="container bg-orange-400 h-48 flex items-center justify-center">
+        <div class="container bg-gold-100 h-48 flex items-center justify-center">
             <h1 class="text-blue text-4xl font-bold text-center text-white p-10">
                 DISCOVER WHAT WE OFFER  
             </h1>

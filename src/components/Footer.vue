@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-    <div class="container bg-orange-400 pl-8 pb-10">
+    <div class="container bg-gray-800 pl-8 pb-10">
         <div class="mx-48 pt-8 items-center">
 
         

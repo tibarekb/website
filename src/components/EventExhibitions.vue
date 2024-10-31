@@ -10,7 +10,7 @@
 <template>
     <NavBar/>
     <div class="container w-screen h-96">
-    <img src="../assets/img/Exhibition.png" class="w-full h-full object-cover" alt="Container Image">
+    <img src="../assets/img/exhibition.jpg" class="w-full h-full object-cover" alt="Container Image">
     </div>
 
     <h1 class="text-center text-5xl font-bold p-8 mb-16">Events & Exhibition </h1>
@@ -22,7 +22,7 @@
         <p class="ml-2 text-2xl"><button @click="() => (state = !state)">+</button></p>
         </div>
 
-        <div v-show="state" class="container h-72 bg-orange-400 my-10 border-8 border-yellow-400 mx-4">
+        <div v-show="state" class="container h-72 bg-gold-400 my-10 border-8 border-yellow-400 mx-4">
             
         </div>
 

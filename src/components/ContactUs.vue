@@ -5,14 +5,14 @@ import Footer from './Footer.vue';
 <template>
     
     <div class="container w-screen h-96">
-    <img src="../assets/img/Exhibition.png" class="w-full h-full object-cover" alt="Container Image">
+    <img src="../assets/img/contactus.jpg" class="w-full h-full object-cover" alt="Container Image">
     </div>
 
     <div class="py-24">
-        <h1 class="text-center text-4xl font-semibold text-orange-400">Contact Us</h1>
+        <h1 class="text-center text-4xl font-semibold text-gold-400">Contact Us</h1>
 
     <div class="mx-48 p-10 ">   
-        <h1 class="font-semibold text-2xl  text-orange-400">HeadOffice</h1>
+        <h1 class="font-semibold text-2xl  text-gold-400">HeadOffice</h1>
         <hr class="pb-8">
     <div class=" lg:grid grid-cols-3  ">
     <div>
@@ -26,12 +26,12 @@ import Footer from './Footer.vue';
         
 
         <p class="pt-4"> 
-            <span class="material-icons size-1 text-orange-400 pr-8">phone</span> 
+            <span class="material-icons size-1 text-gold-400 pr-8">phone</span> 
             +251-11-6621848 / 49 <br />
-            <span class="material-icons size-1 text-orange-400 pr-8">fax</span>
+            <span class="material-icons size-1 text-gold-400 pr-8">fax</span>
              +251-11-6620326 <br />
         </p>
-        <p><span class="material-icons size-1 text-orange-400 pr-8">email</span>
+        <p><span class="material-icons size-1 text-gold-400 pr-8">email</span>
             harsh@mohanint.com</p>
     </div>
 
@@ -54,31 +54,31 @@ import Footer from './Footer.vue';
 <div class="grid grid-col-2">
     <div class="md:w-1/2 max-w-xl p-6 ">
   <div class="relative">
-        <h1 class="pb-8 text-orange-400 text-xl text-center">ENQUIRY FORM</h1>
+        <h1 class="pb-8 text-gold-400 text-xl text-center">ENQUIRY FORM</h1>
         <h3 class="text-base pb-2">Company Name</h3>
         <input type="text" id="nameInput" placeholder="Enter Company Name" 
             class="block w-full px-2 py-2 text-sm text-gray-900 bg-transparent 
-            border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 
-            focus:border-orange-400peer mb-4" />
+            border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400 
+            focus:border-gold-400peer mb-4" />
 
         <h3 class="text-base pb-2">Email Id</h3>
         <input type="text" id="emailInput" placeholder="Enter Your Email Id" 
             class="block w-full px-2 py-2 text-sm text-gray-900 bg-transparent border
-            border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400 
-            focus:border-orange-400 peer mb-4" />
+            border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-400 
+            focus:border-gold-400 peer mb-4" />
         
         <h3 class="text-base pb-2">Subject</h3>
         <input type="text" id="subjectInput" placeholder="Enter your Subject" 
             class="block w-full px-2 py-2 text-sm text-gray-900 bg-transparent border border-gray-300 rounded-lg 
-            focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 peer mb-4" />
+            focus:outline-none focus:ring-2 focus:ring-gold-400 focus:border-gold-400 peer mb-4" />
       
         <h3 class="text-base pb-2">Message</h3>
         <textarea id="messageInput" placeholder="Enter your Message" 
             class="block w-full px-2 py-2 text-sm text-gray-900 bg-transparent border border-gray-300 rounded-lg 
-            focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400 peer h-32 mb-4"></textarea>
+            focus:outline-none focus:ring-2 focus:ring-gold-400 focus:border-gold-400 peer h-32 mb-4"></textarea>
        
 
-        <button class="bg-orange-400 text-white mt-4 py-3 px-10 shadow-lg hover:bg-orange-400 text-sm">
+        <button class="bg-gold-400 text-white mt-4 py-3 px-10 shadow-lg hover:bg-gold-400 text-sm">
             Submit
         </button>
     </div>

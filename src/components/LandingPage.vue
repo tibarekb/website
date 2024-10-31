@@ -15,10 +15,10 @@ import NavBar from './NavBar.vue';
   </video>
 </div> -->
 
-<div class="container bg-orange-400 w-screen h-[42rem] ">
+<div class="container bg-gray-800 w-screen h-[42rem] ">
     <!-- <img src="../assets/img/Exhibition.jpg" class="w-full h-full object-cover" alt="Container Image"> -->
     <video class="w-full h-full object-cover" autoplay muted loop playsinline>
-    <source src="../assets/video/masterbatch2.mp4" class="object-contain" type="video/mp4" />
+    <source src="../assets/video/masterbatch3.mp4" class="object-contain" type="video/mp4" />
   </video>
 </div>
 
