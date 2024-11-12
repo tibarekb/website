@@ -9,7 +9,16 @@
 
     <!-- Navigation Links --> 
       <ul :class="['flex space-x-6 p-4 text-sm font-bold']">
-      <li><a href="#home" class="hover:text-amber-100 text-white">Companies</a></li>
+      <!-- <li><a href="#home" class="hover:text-amber-100 text-white">Companies</a></li> -->
+      <li class="group relative">
+      <a href="#" class="hover:text-blue-100 text-white">Companies</a>
+      <ul class="absolute left-0 hidden group-hover:flex flex-col bg-white text-black shadow-lg text-xs">
+        <li><a href="/event-exhibition" class="block px-4 py-2 hover:bg-gray-100">Mohan International</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Mohan PLC</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Vina Trade & Industry PLC</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Mohan Wire Industries</a></li>
+      </ul>
+      </li>
       <li><a href="#home" class="hover:text-amber-100 text-white">Product Portfolio</a></li>
       <!-- <li><a href="#" class="hover:text-blue-100 text-white">Digital Corner</a></li> -->
       <li class="group relative">
@@ -19,6 +28,7 @@
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Gallery</a></li>
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Brochure</a></li>
         <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Awards & Recognition</a></li>
+        <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">CSR</a></li>
       </ul>
       </li>
       <li><a href="about-us" class="hover:text-blue-100 text-white">About Us</a></li>

@@ -26,7 +26,7 @@ import NavBar from './NavBar.vue';
         <h2>EVA/ Rubber Sheets</h2>
         <h2>Footwear</h2>
         <h2>Flip-Flops</h2>
-        <h2>Nails and Wires</h2>
+        <h2>Barbed Wire</h2>
 
         <h1 class="font-bold pt-8 pb-2 text-lg text-gold-400">Global Reach </h1>
 

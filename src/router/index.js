@@ -3,6 +3,7 @@ import HomeView from "@/views/HomeView.vue";
 import AboutView from "@/views/AboutView.vue";
 import ContactUs from "@/components/ContactUs.vue";
 import EventExhibitions from "@/components/EventExhibitions.vue";
+import ProductInfo from "@/components/ProductInfo.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -26,6 +27,11 @@ const router = createRouter({
             path: '/event-exhibition',
             name: 'EventExhibition',
             component: EventExhibitions
+        }, 
+        {
+            path: '/product-info',
+            name: 'ProductInfo',
+            component: ProductInfo
         }, 
 
     ]

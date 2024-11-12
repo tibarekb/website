@@ -107,7 +107,7 @@
         <img src="../assets/img/Filler Masterbatch.png" alt="Image" class="w-64 h-48 object-contain">
         <div class="p-4">
             <button class="mt-4 px-4 py-2 bg-white-500 text-black rounded hover:bg-gray-300">
-                NAILS AND WIRES
+               BARBED WIRE
             </button>
         </div>
         </div>
